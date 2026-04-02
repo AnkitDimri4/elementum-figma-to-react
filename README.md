@@ -12,6 +12,7 @@ This project is a pixel-close implementation of the provided Elementum landing p
 
 > - **Figma Design:**  https://www.figma.com/design/0K35IOZ4Qwqur0b9o2PXlN/Assignment?node-id=0-1
 > - **Live Demo (Vercel):**  https://elementum-figma-to-react.vercel.app/
+<img width="1002" height="1035" alt="image" src="https://github.com/user-attachments/assets/c8ead42e-7604-4ac5-bd8d-1b3f6b5218b8" />
 
 ---
 
@@ -198,7 +199,7 @@ Now open:
 
 You should see the Elementum landing page served from inside Docker.
 
-> If you change the image name or port, update the commands above and mention it here.
+<img width="1000" height="1079" alt="image" src="https://github.com/user-attachments/assets/0af57fb2-efc1-4826-a0cb-51caa4a36cb2" />
 
 ---
 
@@ -240,8 +241,7 @@ For the reviewer (Websiteble Global):
 2. **Run locally (optional)**  
    - `npm install` → `npm run dev`
 3. **Run via Docker (per assignment)**  
-   - `docker build -t elementum-assignment .`  
-   - `docker run -p 4173:80 elementum-assignment`
+   - Follow the “Run with Docker” section above to build and run the container.
 4. **Compare with Figma**  
    - Confirm typography, colors, spacing, and responsive behavior align with the design.
 5. **Inspect code structure**  
