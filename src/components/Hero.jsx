@@ -81,7 +81,7 @@ export default function Hero() {
               src: "/avatars/Ellipse 260.png",
               style: {},
               extra:
-                "rounded-full w-[120px] sm:w-[150px] md:w-[170px] lg:w-[220px] border-4 sm:border-[5px] md:border-[6px] border-white top-[26%] left-[60%] sm:top-[28%] sm:left-[60%] md:top-[40%] md:left-[60%] lg:top-[40%] lg:left-[60%]",
+                "w-[120px] sm:w-[150px] md:w-[170px] lg:w-[220px] border-4 sm:border-[5px] md:border-[6px] border-white top-[26%] left-[60%] sm:top-[28%] sm:left-[60%] md:top-[40%] md:left-[60%] lg:top-[40%] lg:left-[60%]",
             },
             { src: "/avatars/Ellipse 259.png", style: { top: "0%", left: "75%" } },
             { src: "/avatars/Ellipse 262.png", style: { top: "45%", left: "90%" } },
@@ -90,8 +90,8 @@ export default function Hero() {
               key={avatar.src}
               src={avatar.src}
               className={
-                avatar.extra ??
-                "absolute w-30 sm:w-37.5 md:w-42.5 lg:w-55 rounded-full"
+                "absolute rounded-full w-30 sm:w-37.5 md:w-42.5 lg:w-55 " +
+                (avatar.extra ?? "")
               }
               style={avatar.style}
               variants={{
